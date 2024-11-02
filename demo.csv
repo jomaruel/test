@@ -1,0 +1,53 @@
+Epílogo
+EntryType,Name,Length,Type,Precision,Format
+InputDLD,Input
+
+
+NODE,Request
+    FIELD,Nombre,255,String,Integer,
+    FIELD,Appellidos,255,String,Integer,
+    FIELD,NIF,255,String,Integer,
+    FIELD,Fec_Nac,255,String,Integer,
+    FIELD,Mail,255,String,Integer,
+    FIELD,Movil,255,String,Integer,
+    FIELD,Password,255,String,Integer,
+    FIELD,Loc ,255,String,Integer,
+    FIELD,Prov,255,String,Integer,
+    FIELD,IBAN,255,String,Integer,
+    FIELD,Fec Alta,255,String,Integer,
+    NODE,source
+    FIELD,InnerValue ,255,String,Integer,
+    ENDNOD
+    NODE,scores
+    FIELD,InnerValue ,255,Numeric,#.##,
+    ENDNODE
+
+    NODE,delinq_days
+    FIELD,InnerValue ,255,Numeric,Integer,
+    ENDNODE
+ENDNODE
+OuputDLD,Output
+NODE,Response
+    FIELD,Nombre,255,String,Integer,
+    FIELD,Appellidos,255,String,Integer,
+    FIELD,NIF,255,String,Integer,
+    FIELD,Fec_Nac,255,String,Integer,
+    FIELD,Mail,255,String,Integer,
+    FIELD,Movil,255,String,Integer,
+    FIELD,Password,255,String,Integer,
+    FIELD,Loc ,255,String,Integer,
+    FIELD,Prov,255,String,Integer,
+    FIELD,IBAN,255,String,Integer,
+    FIELD,Fec Alta,255,String,Integer,
+    NODE,source
+    FIELD,InnerValue ,255,String,Integer,
+    ENDNODE
+
+    NODE,scores
+    FIELD,InnerValue ,255,Numeric,#.##,
+    ENDNODE
+
+    NODE,delinq_days
+    FIELD,InnerValue ,255,Numeric,Integer,
+    ENDNODE
+ENDNODE
