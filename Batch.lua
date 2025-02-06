@@ -1,4 +1,4 @@
--- esto viene de hijo
+-- esto viene de hijo2
 MSG_PREFIX = "** Batch: "  --prepend module messages with this
 EOF = -1
 
